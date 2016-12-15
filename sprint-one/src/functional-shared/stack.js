@@ -5,9 +5,10 @@ var Stack = function() {
   var obj = {};
   obj.storage = {};
   obj.sizeVal = 0;
-  obj.size = stackMethods.size;
-  obj.push = stackMethods.push;
-  obj.pop = stackMethods.pop;
+  // obj.size = stackMethods.size;
+  // obj.push = stackMethods.push;
+  // obj.pop = stackMethods.pop;
+  _.extend(obj, stackMethods);
   return obj;
 };
 
