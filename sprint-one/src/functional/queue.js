@@ -14,7 +14,7 @@ var Queue = function() {
   };
 
   someInstance.dequeue = function() {
-    if (enCount - deCount) {
+    if (enCount - deCount > 0) {
       deCount++;
       return storage[deCount - 1];
     }
