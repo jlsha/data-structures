@@ -68,8 +68,8 @@ var Node = function(value) {
 
 /*
  * Complexity: What is the time complexity of the above functions?
+ * addToTail and removeHead are constant time O(1).
+ * contains is linear 0(n).
  */
 
-// 1 person in line, he is head and tail
-// 2nd person, only concerned about first
-// 
+
