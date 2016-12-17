@@ -11,7 +11,7 @@ var LinkedList = function() {
     // If there's no head
     if (list.head === null) {
       // Set list.head to the new node
-      list.head = newNode;
+      list.head = newNode; 
       // Set list.tail to the new node
       list.tail = newNode;
     } else {
@@ -19,7 +19,7 @@ var LinkedList = function() {
       // Add the new node to the tail's next property
       list.tail.next = newNode;
       // Set list.tail to the new node
-      list.tail = newNode;
+      list.tail = newNode; 
     }
     // Can refactor repeated list.tail
   };
