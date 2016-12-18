@@ -79,9 +79,9 @@ var BinarySearchTree = function(value) {
   return bst;
 }; 
 
-// var bst1 = BinarySearchTree(1);
-// bst1.left.left.right
-
 /*
  * Complexity: What is the time complexity of the above functions?
+ * bst.insert: O(log n)
+ * bst.contains: O(log n)
+ * bst.depthFirstLog: O(1)
  */

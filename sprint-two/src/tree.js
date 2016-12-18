@@ -26,7 +26,6 @@ treeMethods.contains = function(target) {
     if (tree.value === target) {
       result = true;
     }
-    console.log(tree);
     for (var i = 0; i < tree.children.length; i++) {
       if (tree.children[i].value === target ) {
         result = true;
@@ -46,18 +45,7 @@ treeMethods.contains = function(target) {
 
 /*
  * Complexity: What is the time complexity of the above functions?
+ * addChild: O(1)
+ * contains: O(n)
  */
- //use functional shared
-// var tree1 = Tree(1); {value: 1, children: []}
-
-// tree1.addChild(3); {value: 1, children: [ {value: 3, children: [] } ]
-
-// tree1.addChild(4); {value: 1, children: [ {value: 3, children: [{value: 8, children: [] }]}, {value: 4, children: [] }]}
-
-// var tree1 = Tree(1);
-// console.log("tree1: ", tree1);
-// tree1.addChild(2);
-// console.log(tree1);
-
-//newTree with keys value and children and method addchild
 
